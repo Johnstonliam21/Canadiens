@@ -8,6 +8,33 @@ body {
 
 p{
 	color: white;
-	font-size: 60px;
+	font-size: 25px;
+	font-family: times new roman;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 250px;
+    background-color: #911;
+}
+
+li a {
+    display: block;
+    color: black;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+
+li {
+    text-align: center;
+    border-bottom: 1px solid #555;
+}
+
+h1 {
+	color: white;
+	font-size: 45px;
 	font-family: times new roman;
 }
