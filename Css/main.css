@@ -5,7 +5,7 @@ body {
 	
     background-size: 150000px 10000px;
     background-repeat: no-repeat;
-	background-image: url("Canadian.jpg");
+	background-image: url("../Photos/Canadian.jpg");
 }
 /* This is my paragraph's syntax */
 p{
@@ -20,7 +20,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #0000ff;
+	background-color: #0000ff;
 }
 
 li a {
