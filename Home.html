@@ -1,11 +1,12 @@
 <!DOCTYPE html>
 <html>
 <head
-	<title>Montreal Canadiens Page</title>		<!--My title-->
-		<link rel="stylesheet" type="text/css" href="Css/main.css">		<!--Connecting external css page-->
-</head>
-<body> 
-	<center><p><font size="7"color="red">Mon<font size="7"color="white">tr<font size="7"color="blue">eal</p> </center>		<!--Changing color of letters of title-->
+
+  <div class="container">
+    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+    <button type="submit">Login</button>
+    <input type="checkbox" checked="checked"> <font color="white"> Remember me </font>
 
   <ul>	
 	<li><a href="Home.html">Home</a></li>			<!--Connecting home page-->
@@ -14,6 +15,10 @@
 	<li><a href="Contact.html">Contact</a></li>			<!--Connecting history page-->
   </ul>
   
+		<link rel="stylesheet" type="text/css" href="Css/main.css">		<!--Connecting external css page-->
+</head>
+<body> 
+
  <center><h1>NHL News</h1></center> <!--Today's news header-->
  
  <p> Today's topic is going to be the Edmonton Oilers. The Edmonton Oilers are an organization that has been at the bottom of the leaderboards for some years.
@@ -31,11 +36,13 @@
  Winning the Maurice Richard trophy the past four years. But this year he is falling off only having 22 goals, still good but Crosby having 28 goals maybe
  wanting to take that trophy this year. This might be the year that is confirmed that Crosby is better than Ovechkin. Crosby has always been considered 
  amazing but Ovechkin has always leaded the goal scoring category. If Crosby takes that category then it will cement his greatness over Ovechkin. </p>
- 
- <center> <p> Leave comments below</p> &#8595; </center>        		<!--Arrow that goes downward-->
+
+<center> <p> Leave comments below</p> &#8595; </center>        		<!--Arrow that goes downward-->
 <form action="/html/tags/html_form_tag_action.cfm"method="post">
 <center> <textarea name="comments" id="comments" > Comments
-</textarea>
+</textarea> 
+<input type="submit" value="Submit"> </center>
+</form>
 
 </body>
 </html>
